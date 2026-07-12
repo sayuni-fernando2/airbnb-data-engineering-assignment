@@ -58,7 +58,7 @@ This notebook includes:
 - Metadata management
 - Data lineage documentation
 
-### Notebook 3 – Exploratory Data Analysis
+### Notebook 3 – EDA
 
 The EDA explores:
 
@@ -95,13 +95,7 @@ The original Airbnb datasets are **not included** in this repository because the
 To run the notebooks:
 
 1. Download the original Airbnb datasets provided with the assignment.
-2. Place them inside:
-
-```
-data/raw_data/
-```
-
-3. Update the file paths in the notebooks if necessary.
+2. Update the file paths in the notebooks.
 
 
 ## How to Run
@@ -118,14 +112,14 @@ git clone https://github.com/<your-username>/airbnb-data-engineering-assignment.
 pip install -r requirements.txt
 ```
 
-3. Open the notebooks in Jupyter Notebook, JupyterLab, VS Code, or Google Colab.
+3. Open the notebooks in Jupyter Notebook, JupyterLab, VS Code or Google Colab.
 
 4. Run the notebooks in the following order:
 
 ```
-1. Dataset Exploration
-2. Data Cleaning and Engineering
-3. Exploratory Data Analysis
+01_data_exploration
+02_data_cleaning_and_engineering
+03_EDA
 ```
 
 ---
